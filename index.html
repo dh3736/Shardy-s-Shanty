@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<head>
+<meta name="viewport" content="width=device-width">
+   <link href="20200924_153413.png" rel="shortcut icon" type="image/x-icon">
+<style> 
+#sha {
+position: fixed;
+top: 0;
+laft: 0;
+min-width: 100%;
+min-height: 100%;
+}
+</style> </head>
+    <body>
+       <title>Shardy's Shanty</title>
+         <audio id='audio_play' loop>
+          <source src="Shardy's Shanty.ogg" type="audio/ogg"> </audio>
+<script type="text/javascript"> 
+function play() { 
+    var audio = document.getElementById('audio_play'); 
+    if (audio.paused) { 
+        audio.play(); 
+    }
+} 
+   
+function playg() {
+    var g = document.getElementById('sha');
+    if (g.src.match("playg")) {
+        g.src = "20200924_064603.gif";
+    } else 
+        g.src = "20200924_064603.gif";
+    }
+</script>
+   <img src="1600925870664.jpg" id="sha" onclick="javascript:playg();play();">
+</body>
